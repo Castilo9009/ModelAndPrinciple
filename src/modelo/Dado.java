@@ -1,6 +1,7 @@
 package modelo;
 
 import java.util.Random;
+import java.Random;
 
 public class Dado {
 
