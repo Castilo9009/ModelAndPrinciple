@@ -7,6 +7,7 @@ public class Dado {
 
 	private int cara;
 	private int testAleatorio[] = { 0, 0, 0, 0, 0, 0, 0 };
+	private int coordinate;
 	
 	public Dado() {
 
@@ -20,6 +21,9 @@ public class Dado {
 		this.cara = cara;
 	}
 
+	public void setCoordinate(int coordinate) {
+		this.coordinate = coordinate;
+	}
 	public int lanzarDado() {
 		Random random = new Random();
 		cara = random.nextInt(6) + 1;
