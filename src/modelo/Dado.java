@@ -45,9 +45,6 @@ public class Dado {
 			case 5:
 				testAleatorio[5]++;
 				break;
-			case 6:
-				testAleatorio[6]++;
-				break;
 			default:
 				;
 			}
